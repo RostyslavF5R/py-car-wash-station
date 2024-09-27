@@ -24,8 +24,8 @@ class CarWashStation:
         self.count_of_ratings = count_of_ratings
 
     def calculate_washing_price(
-        self: "CarWashStation",
-        car: "Car"
+            self: "CarWashStation",
+            car: "Car"
     ) -> float:
         washing_price = (
             car.comfort_class
